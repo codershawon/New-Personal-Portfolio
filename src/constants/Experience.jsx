@@ -1,0 +1,82 @@
+export const Experience = [
+  {
+    id: 1,
+    image:
+      "https://i.ibb.co/RPxcg0d/kisspng-web-development-html-responsive-web-design-cascadi-5ae19e6b7649d5-1239039415247355954845-rem.png",
+    title: "HTML",
+    style: "shadow-orange-500",
+    category: "Frontend",
+  },
+  {
+    id: 2,
+    image: "https://i.ibb.co/zZgDmhp/4672509-removebg-preview.png",
+    title: "CSS",
+    style: "shadow-blue-500",
+    category: "Frontend",
+  },
+  {
+    id: 3,
+    image: "https://i.ibb.co/Kqc0RSZ/bootstrap-logo.png",
+    title: "Bootstrap",
+    style: "shadow-purple-500",
+    category: "Frontend", // Updated to "Others" tab
+  },
+  {
+    id: 4,
+    image: "https://i.ibb.co/n3qxb5S/mongodb-logo1-76twgcu2dm.png",
+    title: "MongoDB",
+    style: "shadow-green-500",
+    category: "Backend", // Updated to "Backend" tab
+  },
+  {
+    id: 5,
+    image: "https://i.ibb.co/bLKk6Rc/Git-Icon-1788-C.png",
+    title: "Git",
+    style: "shadow-orange-500",
+    category: "Others", // Updated to "Backend" tab
+  },
+  {
+    id: 6,
+    image: "https://i.ibb.co/n311qd6/javascript.png",
+    title: "JavaScript",
+    style: "shadow-yellow-500",
+    category: "Frontend", // Updated to "Backend" tab
+  },
+  {
+    id: 7,
+    image: "https://i.ibb.co/hKP0kWH/Git-Hub-Logo.png",
+    title: "GitHub",
+    style: "shadow-gray-400",
+    category: "Others",
+  },
+  {
+    id: 8,
+    image: "https://i.ibb.co/XbGqJdw/React-icon-svg.png",
+    title: "React",
+    style: "shadow-blue-600",
+    category: "Frontend",
+  },
+  {
+    id: 9,
+    image: "https://i.ibb.co/GtZvn0Y/Tailwind-CSS-removebg-preview.png",
+    title: "Tailwind",
+    style: "shadow-sky-400",
+    category: "Frontend",
+  },
+  {
+    id: 10,
+    image:
+      "https://i.ibb.co/xS1yZ9m/expressjs-logo-icon-169185-removebg-preview.png",
+    title: "Express.js",
+    style: "shadow-black-500",
+    category: "Backend",
+  },
+  {
+    id: 11,
+    image:
+      "https://i.ibb.co/pQL6ys0/nodejs-logo-FBE122-E377-seeklogo-com-removebg-preview-removebg-preview.png",
+    title: "Node.js",
+    style: "shadow-green-300",
+    category: "Backend",
+  },
+];
