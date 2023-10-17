@@ -33,7 +33,7 @@ export const projects = [
         🔹 Leveraged MongoDB to store and manage dynamic data about colleges, courses, and events, ensuring real-time updates.
         🔹 Employed state-of-the-art state management techniques to optimize application performance and data consistency.`,
       image:
-        "https://i.ibb.co/xJvrNB6/screencapture-school-booking-site-web-app-2023-10-09-00-33-00.png",
+        "https://i.ibb.co/LgfNWP6/screencapture-localhost-5173-2023-10-17-01-51-45.png",
       tags: [
         "React JS",
         "Express JS",

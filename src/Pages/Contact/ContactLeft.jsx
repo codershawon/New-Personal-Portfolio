@@ -1,14 +1,22 @@
+import Lottie from 'lottie-react';
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import contactUsAnimation from "./Contact.json";
 
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-[815px]  px-4 py-6 md:py-10  rounded-lg flex flex-col gap-8 justify-center bg-gradient-to-r from-[--bg-black-100] to-[--bg-black-900] group hover:bg-gradient-to-b hover:from-[--bg-black-50] hover:to-[--bg-black-900] transition-colors duration-100 group">
-      <img
+      {/* <img
         className="w-full h-80 object-cover rounded-lg mb-2"
         src="https://i.ibb.co/qBGmLfs/contact-Img.png"
         alt="contactImg"
-      />
+      /> */}
+      <Lottie
+              className="w-full h-96 object-cover rounded-lg"
+              animationData={contactUsAnimation}
+            />
+          {/* </div> */}
+      
       <div className="flex flex-col gap-4">
         <h3 className="text-2xl font-bold  text-[--text-black-900]">Shawon Barua</h3>
         <p className="font-semibold contact-text">
